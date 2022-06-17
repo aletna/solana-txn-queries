@@ -10,4 +10,4 @@ to get multiple transaction objects:
 `yarn get-txns {address} {iterations} {filename} {batchsize}`
 
 to get signatures
-`yarn get-sigs getSignature {address} {iterations} {outputName} {batchSize}`
+`yarn get-sigs {address} {iterations} {outputName} {batchSize}`
