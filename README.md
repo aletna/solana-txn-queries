@@ -10,4 +10,4 @@ to get multiple transaction objects:
 `yarn get-txns {address} {iterations} {filename} {batchsize}`
 
 to get signatures
-`npx tsc --outDir dist && node dist/index.js getSignature {address} {iterations} {outputName} {batchSize}`
+`yarn get-sigs getSignature {address} {iterations} {outputName} {batchSize}`
