@@ -1,4 +1,4 @@
-import { Connection, PublicKey } from "@solana/web3.js";
+import { Connection } from "@solana/web3.js";
 
 export const connection: Connection = new Connection(
   "https://ssc-dao.genesysgo.net/"

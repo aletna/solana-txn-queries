@@ -38,7 +38,7 @@ module.exports.getSignatures = (
   before?: string | undefined
 ) => {
   if (!address || !outputName || !limit || !iterations)
-    return "pls enter outputName, address,limit and iterations. if you want also add before sig.";
+    return "pls enter outputName, address, limit and iterations. if you want also add before sig.";
   getSignatures(outputName, address, limit, iterations, before);
 };
 

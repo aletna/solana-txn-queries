@@ -5,9 +5,6 @@ import { delay, getFile, writeObj } from "./utils";
 
 export const getTx = async (signature: string, outputName: string) => {
   const data = await connection.getParsedTransaction(signature);
-  //   const data = await connection.getParsedTransaction(
-  //     "rrxi3ctn8aXZYnEknwiFvCHMXKJdeyPmC4D1WWgpH6v1gWDjofL3Nu825vPHcQ156bfPzmQSvALTqVA8bbp5rnV"
-  //   );
   await writeObj({ data }, outputName);
 };
 
